@@ -76,8 +76,7 @@ STATE_MAP = {
     'meghalaya': 'Meghalaya',
     'mizoram': 'Mizoram',
     'nagaland': 'Nagaland',
-    'odisha': 'Odisha',
-    'orissa': 'Odisha',
+    'odisha': 'Orissa',
     'puducherry': 'Puducherry',
     'punjab': 'Punjab',
     'rajasthan': 'Rajasthan',
@@ -108,7 +107,7 @@ def load_geojson():
 india_states = load_geojson()
 
 # =========================================================
-# MAP FUNCTION (FIXED)
+# MAP FUNCTION 
 # =========================================================
 
 def create_india_map(df, state_col, value_col, title):
