@@ -1,5 +1,5 @@
 # =========================================================
-# PhonePe Pulse Analytics Dashboard (FIXED VERSION)
+# PhonePe Pulse Analytics Dashboard 
 # =========================================================
 
 import streamlit as st
