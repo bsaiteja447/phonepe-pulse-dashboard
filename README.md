@@ -14,12 +14,22 @@
 > 🚀 [View Live Dashboard](https://your-app.streamlit.app) ← Deploy on Streamlit Cloud (free!)
 
 ---
+## 📸 Dashboard Preview
 
-## 📸 Screenshots
+### 💳 Transactions Dashboard
+| India Transaction Map |
+|---|
+| ![Transactions Map](screenshots/01_transactions_india_map.png) |
 
-| Transactions Dashboard | Insurance Dashboard | Users Dashboard |
+### 🛡️ Insurance Dashboard
+| Insurance KPI Overview | Insurance Type Distribution | Insurance Map |
 |---|---|---|
-| ![Transactions](screenshots/transactions.png) | ![Insurance](screenshots/insurance.png) | ![Users](screenshots/users.png) |
+| ![Insurance KPI](screenshots/02_insurance_overview_kpi.png) | ![Insurance Pie](screenshots/03_insurance_type_pie.png) | ![Insurance Map](screenshots/04_insurance_india_map.png) |
+
+### 👥 Users Dashboard
+| Users Overview | State-wise Registered Users |
+|---|---|
+| ![Users Overview](screenshots/05_users_overview_donut.png) | ![Users Bar](screenshots/06_users_statewise_bar.png) |
 
 ---
 
