@@ -16,21 +16,25 @@
 ---
 ## 📸 Dashboard Preview
 
-### 💳 Transactions Dashboard
-| India Transaction Map |
+### 🏠 Main Dashboard
+| PhonePe Pulse Analytics Dashboard |
 |---|
-| ![Transactions Map](screenshots/01_transactions_india_map.png) |
+| ![Main Dashboard](screenshots/Screenshot%20(94).png) |
+
+### 💳 Transactions Dashboard
+| Transaction Type Distribution | India State-wise Transaction Map |
+|---|---|
+| ![Transaction Types](screenshots/Screenshot%20(95).png) | ![Transaction Map](screenshots/Screenshot%20(96).png) |
 
 ### 🛡️ Insurance Dashboard
-| Insurance KPI Overview | Insurance Type Distribution | Insurance Map |
-|---|---|---|
-| ![Insurance KPI](screenshots/02_insurance_overview_kpi.png) | ![Insurance Pie](screenshots/03_insurance_type_pie.png) | ![Insurance Map](screenshots/04_insurance_india_map.png) |
+| Insurance KPI Overview | Insurance Type & Map |
+|---|---|
+| ![Insurance Overview](screenshots/Screenshot%20(97).png) | ![Insurance Map](screenshots/Screenshot%20(99).png) |
 
 ### 👥 Users Dashboard
-| Users Overview | State-wise Registered Users |
-|---|---|
-| ![Users Overview](screenshots/05_users_overview_donut.png) | ![Users Bar](screenshots/06_users_statewise_bar.png) |
-
+| Users Overview | State-wise Registered Users | India Users Map |
+|---|---|---|
+| ![Users Overview](screenshots/Screenshot%20(100).png) | ![Users Bar](screenshots/Screenshot%20(101).png) | ![Users Map](screenshots/Screenshot%20(102).png) |
 ---
 
 ## 🎯 Key Features
