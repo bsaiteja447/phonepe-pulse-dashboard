@@ -1,85 +1,94 @@
-# PhonePe Pulse Analytics Dashboard
+# 📊 PhonePe Pulse Analytics Dashboard
 
-## Overview
+[![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://python.org)
+[![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-FF4B4B.svg)](https://streamlit.io)
+[![Plotly](https://img.shields.io/badge/Plotly-Interactive-3D9970.svg)](https://plotly.com)
 
-An interactive analytics dashboard built using Streamlit, Pandas, and Plotly to visualize PhonePe Pulse data across India.
+> An interactive multi-page analytics dashboard built with Streamlit to visualize 
+> PhonePe Pulse data across India — covering digital transactions, insurance adoption, 
+> and registered user trends with India choropleth maps.
 
-The dashboard provides insights into:
+---
 
-* Digital Transactions
-* Insurance Adoption
-* Registered Users
-* State-wise Trends
-* India Choropleth Maps
+## 🖥️ Live Demo
+> 🚀 [View Live Dashboard](https://your-app.streamlit.app) ← Deploy on Streamlit Cloud (free!)
 
-## Features
+---
 
-### Transactions Dashboard
+## 📸 Screenshots
 
-* Total Transaction KPIs
-* State-wise Transaction Analysis
-* Transaction Type Distribution
-* India Transaction Map
+| Transactions Dashboard | Insurance Dashboard | Users Dashboard |
+|---|---|---|
+| ![Transactions](screenshots/transactions.png) | ![Insurance](screenshots/insurance.png) | ![Users](screenshots/users.png) |
 
-### Insurance Dashboard
+---
 
-* Insurance Amount Analysis
-* Insurance Type Distribution
-* State-wise Insurance Map
-* Insurance Insights
+## 🎯 Key Features
 
-### Users Dashboard
+- **Transactions Dashboard** — KPI cards, state-wise analysis, transaction type distribution, India choropleth map
+- **Insurance Dashboard** — Insurance amount analysis, type distribution, state-wise map
+- **Users Dashboard** — Registered user trends, state-wise user map, growth insights
+- **Dynamic Filters** — Filter by state, year, and quarter across all dashboards
+- **India Choropleth Maps** — Built with Plotly Express + GeoJSON for geo-visualizations
 
-* Registered User Analysis
-* User Distribution Pie Chart
-* State-wise User Map
-* Growth Insights
+---
 
-## Technologies Used
+## 🛠️ Tech Stack
 
-* Python
-* Streamlit
-* Pandas
-* Plotly Express
-* Requests
-* GeoJSON
+| Tool | Purpose |
+|---|---|
+| Python | Core programming |
+| Streamlit | Web dashboard framework |
+| Pandas | Data processing & analysis |
+| Plotly Express | Interactive charts & maps |
+| GeoJSON | India state boundary maps |
 
-## Project Structure
+---
 
-```text
-capston/
-│
-├── dashborads.py
-├── main.py
-├── agg_transaction.csv
-├── agg_insurence.csv
-├── agg_user.csv
+## 📁 Project Structure
+phonepe-pulse-dashboard/
+├── dashboards.py          # Main multi-page Streamlit app
+├── main.py                # Entry point / app launcher
+├── agg_transaction.csv    # Aggregated transactions data
+├── agg_insurence.csv      # Aggregated insurance data
+├── agg_user.csv           # Aggregated user data
+├── screenshots/           # Dashboard preview images
+├── requirements.txt       # Python dependencies
 └── README.md
-```
+---
 
-## Installation
-
-```bash
-pip install streamlit pandas plotly requests
-```
-
-## Run the Application
+## ⚙️ Installation & Run
 
 ```bash
-streamlit run dashborads.py
+# Clone the repo
+git clone https://github.com/bsaiteja447/phonepe-pulse-dashboard.git
+cd phonepe-pulse-dashboard
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the dashboard
+streamlit run dashboards.py
 ```
 
-## Dashboard Highlights
+---
 
-* Interactive Visualizations
-* Dynamic Filters
-* KPI Cards
-* Pie Charts
-* Bar Charts
-* India Choropleth Maps
+## 📊 Data Source
 
-## Author
+Data sourced from [PhonePe Pulse](https://github.com/PhonePe/pulse) — India's digital payment public dataset covering transactions, insurance, and user metrics across all Indian states from 2018–2024.
 
-Sai Teja
+---
 
-GitHub: https://github.com/bsaiteja447
+## 💡 Key Insights Uncovered
+
+- Maharashtra, Karnataka, and Telangana lead in digital transaction volumes
+- Insurance adoption is highest in southern states
+- User growth shows consistent YoY increase post-2020 with UPI adoption surge
+
+---
+
+## 👤 Author
+
+**B. Sai Teja** — Data Analyst | Python • SQL • Power BI  
+📧 bsaiteja562@gmail.com  
+🔗 [LinkedIn](https://linkedin.com/in/bsaiteja447) | [GitHub](https://github.com/bsaiteja447)
